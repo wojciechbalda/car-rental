@@ -1,0 +1,41 @@
+.accessory {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.accessory:nth-last-child(1)
+{
+    padding-bottom: 0px;
+}
+
+.accessory input[type="checkbox"]
+{
+    display: inline-block;
+    width: auto;
+}
+
+.details label {
+    text-wrap: nowrap;
+}
+
+.icon {
+    display: none;
+    font-size: 2rem;
+}
+
+.accessory p {
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px)
+{
+    .icon {
+        display: block;
+    }
+    .accessory p {
+        font-size: 1rem;
+    }
+}

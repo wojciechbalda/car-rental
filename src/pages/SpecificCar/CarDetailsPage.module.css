@@ -1,0 +1,27 @@
+.page {
+    min-height: 84vh;
+}
+
+.description {
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.page-title {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+@media (min-width: 768px)
+{
+    .grid {
+        grid-template-columns: 70% 30%;
+    }
+}

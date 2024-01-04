@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #323131;
+  --main-color: #34B27B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 20px 0;
+}
+
+section:nth-child(odd) {
+    background-color: #0101017c;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+tr:nth-child(even)
+{
+  background-color: #1f1616;
+}
+
+td a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: white;
+}
+
+td a:hover {
+  background-color: var(--main-color);
+}
+

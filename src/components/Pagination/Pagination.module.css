@@ -1,0 +1,14 @@
+.pagination
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    padding: 0.5rem 1.5rem;
+}
+
+.pagination select {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

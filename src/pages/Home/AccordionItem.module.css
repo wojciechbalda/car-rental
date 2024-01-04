@@ -1,0 +1,13 @@
+.accordion-item {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 10px;
+  line-height: 1.6;
+}

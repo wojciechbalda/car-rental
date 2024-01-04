@@ -1,0 +1,22 @@
+.welcome-message {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.last-sign-in-info
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (min-width: 768px)
+{
+    .welcome-message {
+        font-size: 6rem;
+    }
+
+    .last-sign-in-info
+    {
+        font-size: 3rem;
+    }
+}

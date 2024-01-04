@@ -1,0 +1,33 @@
+.form input, .form textarea, .form select, .form > button {
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+}
+
+.form > button {
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.form {
+    display: grid;
+    gap: 8px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.form textarea {
+    resize: vertical;
+    max-height: 300px; 
+    min-height: 100px;
+}
+
+.form input[type="checkbox"]
+{
+    display: inline;
+    margin-left: 10px;
+    width: auto;
+}

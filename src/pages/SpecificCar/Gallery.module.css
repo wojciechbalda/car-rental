@@ -1,0 +1,26 @@
+.gallery {
+    width: 100%;
+}
+
+.images-box {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.5rem;
+}
+
+.images-box img {
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.selected {
+    width: 100%;
+    aspect-ratio: 5/3;
+}
+
+.selected img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+

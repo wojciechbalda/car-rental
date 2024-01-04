@@ -1,0 +1,22 @@
+.form {
+    width: 100%;
+}
+
+.form input, .form label {
+    display: block;
+    text-align: left;
+}
+
+.form input, .form button {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.form button {
+    cursor: pointer;
+}
+
+.form button:disabled {
+    cursor: not-allowed;
+}
